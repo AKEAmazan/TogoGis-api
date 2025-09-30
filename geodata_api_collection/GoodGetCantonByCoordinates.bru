@@ -1,0 +1,16 @@
+meta {
+  name: GoodGetCantonByCoordinates
+  type: http
+  seq: 5
+}
+
+get {
+  url: {{hostname}}/api/v1/cantons/search?lat=6.221536745861613&lon=1.3350033506140448
+  body: none
+  auth: none
+}
+
+query {
+  lat: 6.221536745861613
+  lon: 1.3350033506140448
+}
